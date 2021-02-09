@@ -26,3 +26,16 @@ soma_dez <- function(x) {
 d <- purrr::map_dbl(vect, soma_dez)
 d
 #####################
+
+#funcao soma 25
+
+
+soma_vintcinc <- function(y) {
+
+  y + 25
+
+}
+
+
+v <- purrr::map_dbl(vect, soma_vintcinc)
+v
